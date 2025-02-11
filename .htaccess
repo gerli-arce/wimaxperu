@@ -1,0 +1,20 @@
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+
+    RewriteCond %{REQUEST_METHOD} ^(GET|CONNECT|DEBUG|DELETE|MOVE|PUT|TRACE|TRACK) [NC]
+
+
+    ### START PAGE ROUTING ###
+    DirectoryIndex index.php index.html
+    ErrorDocument 404 404.html
+    ### END PAGE ROUTING ###
+
+    #### START VIEWS ####
+    RewriteRule ^contact                    contact.php [QSA]
+    RewriteRule ^about                      about.php [QSA]
+    RewriteRule ^service                    service.php [QSA]
+    #RewriteRule ^service                    service.php [QSA]
+   
+
+</IfModule>
