@@ -8,7 +8,7 @@
                 <div class="hm-foot-title">
                   <div class="logo">
                     <a href="index.html">
-                      <img src="assets/images/logo/logo.png" alt="logo" />
+                      <img src="assets/images/logo/logo-dark.png" alt="logo" />
                     </a>
                   </div>
                   <!-- /.logo-->
@@ -16,9 +16,7 @@
                 <!--/.hm-foot-title-->
                 <div class="hm-foot-para">
                   <p>
-                    Lorem ipsum dolor sit amt conetur adcing elit. Sed do eiusod
-                    tempor utslr. Ut laboris nisi ut aute irure dolor in rein
-                    velit esse.
+                   Brindamos soluciones de internet confiables y rápidas para hogares y empresas. Conéctate con nosotros y descubre un mundo sin límites.
                   </p>
                 </div>
                 <!--/.hm-foot-para-->
@@ -59,17 +57,15 @@
             <div class="col-md-2 col-sm-6 col-xs-12">
               <div class="hm-footer-widget">
                 <div class="hm-foot-title">
-                  <h4>Useful Links</h4>
+                  <h4>Enlaces Útiles</h4>
                 </div>
                 <!--/.hm-foot-title-->
                 <div class="footer-menu">
                   <ul class="">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Service</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact.html">Contact us</a></li>
+                    <li><a href="./">Inicio</a></li>
+                    <li><a href="about">Nosotros</a></li>
+                    <li><a href="services">Servicios</a></li>
+                    <li><a href="contact">Contacto</a></li>
                   </ul>
                 </div>
                 <!-- /.footer-menu-->
@@ -80,24 +76,24 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="hm-footer-widget">
                 <div class="hm-foot-title">
-                  <h4>from the news</h4>
+                  <h4>Últimas Noticias</h4>
                 </div>
                 <!--/.hm-foot-title-->
                 <div class="hm-para-news">
-                  <a href="blog_single.html">
-                    The Pros and Cons of Starting an Online Business.
+                  <a href="#">
+                      Ventajas y desventajas de iniciar un negocio en línea.
                   </a>
-                  <span>12th June 2017</span>
+                  <span>12 de enero de 2025</span>
                 </div>
                 <!--/.hm-para-news-->
                 <div class="footer-line">
                   <div class="border-bottom"></div>
                 </div>
                 <div class="hm-para-news">
-                  <a href="blog_single.html">
-                    The Pros and Cons of Starting an Online Business.
+                  <a href="#">
+                      Consejos para mejorar la conexión a internet en casa.
                   </a>
-                  <span>12th June 2017</span>
+                  <span>10 de enero de 2025</span>
                 </div>
                 <!--/.hm-para-news-->
               </div>
@@ -107,17 +103,16 @@
             <div class="col-md-3 col-sm-6 col-xs-12">
               <div class="hm-footer-widget">
                 <div class="hm-foot-title">
-                  <h4>Our Newsletter</h4>
+                  <h4>Nuestro Boletín</h4>
                 </div>
                 <!--/.hm-foot-title-->
                 <div class="hm-foot-para">
                   <p class="para-news">
-                    Subscribe to our newsletter to get the latest News and
-                    offers..
+                  Suscríbete a nuestro boletín para recibir las últimas novedades y ofertas especiales.
                   </p>
                 </div>
                 <!--/.hm-foot-para-->
-                <div class="hm-foot-email">
+                <!-- <div class="hm-foot-email">
                   <div class="foot-email-box">
                     <input
                       type="text"
@@ -125,12 +120,10 @@
                       placeholder="Email Address"
                     />
                   </div>
-                  <!--/.foot-email-box-->
                   <div class="foot-email-subscribe">
-                    <button type="button">go</button>
+                    <button type="button">Suscribirse</button>
                   </div>
-                  <!--/.foot-email-icon-->
-                </div>
+                </div> -->
                 <!--/.hm-foot-email-->
               </div>
               <!--/.hm-footer-widget-->
@@ -153,8 +146,8 @@
           <div class="col-sm-7">
             <div class="foot-copyright pull-left">
               <p>
-                &copy; All Rights Reserved. Designed and Developed by
-                <a href="https://www.themesine.com">ThemeSINE</a>
+                  &copy; Todos los derechos reservados. Diseñado y desarrollado por
+                  <a href="https://wimaxperu.com.pe">WIMAX PERÚ</a>
               </p>
             </div>
             <!--/.foot-copyright-->
@@ -163,9 +156,9 @@
           <div class="col-sm-5">
             <div class="foot-menu pull-right">
               <ul>
-                <li><a href="#">legal</a></li>
-                <li><a href="#">sitemap</a></li>
-                <li><a href="#">privacy policy</a></li>
+                <li><a href="#">Legal</a></li>
+                <li><a href="#">Mapa del sitio</a></li>
+                <li><a href="#">Política de privacidad</a></li>
               </ul>
             </div>
             <!-- /.foot-menu-->

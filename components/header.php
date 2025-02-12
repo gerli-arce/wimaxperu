@@ -10,7 +10,7 @@
             <!--/li-->
             <li>
               <a href="#">
-                <i class="fa fa-envelope" aria-hidden="true"></i>admin@wimaxperu.com.pe
+                <i class="fa fa-envelope" aria-hidden="true"></i>wimax.pe@gmail.com
               </a>
             </li>
             <!--/li-->

@@ -619,7 +619,7 @@ html,body{
 		5. About
 --------------------------------------*/
 .about-us{
-	background: #f9faff;
+	background: #6d92b926;
 	padding: 120px 0 175px;
 }
 .about-us-txt{
@@ -1361,7 +1361,7 @@ a:active.learn-btn{
 }
 .contact:before{
 	/* background:rgba(115,112,215,.85); */
-	background:rgba(42, 122, 226, 0.85);
+	background:rgb(36 63 97 / 78%);
 	position:absolute;
 	left:0;
 	top:0;

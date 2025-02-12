@@ -28,7 +28,7 @@
               id="bs-example-navbar-collapse-1"
             >
               <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="./">Home</a></li>
+                <li class="active"><a href="./">Inicio</a></li>
                 <li><a href="about">Nosotros</a></li>
                 <li><a href="service">Servicios</a></li>
                 <!-- <li><a href="project.html">Proyectos</a></li> -->

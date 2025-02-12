@@ -41,7 +41,7 @@
                         velocidad para que tu empresa siempre esté conectada y
                         en movimiento.
                       </p>
-                      <button type="button" class="slide-btn">
+                      <button type="button" class="slide-btn" onclick="window.location.href='contact'">
                         Contratar ahora
                       </button>
                       <button type="button" class="slide-btn">
@@ -236,18 +236,14 @@
             <div class="col-sm-6">
               <div class="single-about-us">
                 <div class="about-us-txt">
-                  <h2>about us</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse.
-                  </p>
-                  <div class="project-btn">
+                <h2>Sobre Nosotros</h2>
+                <p>
+                    Somos un proveedor líder de servicios de internet, comprometidos con ofrecer conexiones rápidas, estables y seguras. Nuestro objetivo es brindarte la mejor experiencia en conectividad, ya sea para tu hogar o negocio, con un servicio confiable y un soporte excepcional.
+                </p>
+
+                  <!-- <div class="project-btn">
                     <a href="#" class="project-view">learn more </a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -270,11 +266,9 @@
       <div class="container">
         <div class="service-details">
           <div class="section-header text-center">
-            <h2>our services</h2>
+            <h2>Nuestros Servicios</h2>
             <p>
-              Pallamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-              aute irure dolor in reprehenderit in voluptate velit esse cillum
-              dolore eu fugiat nulla pariatur.
+              Ofrecemos soluciones de internet de alta velocidad, confiables y seguras para hogares y empresas. Conéctate sin límites con nuestro servicio de calidad.
             </p>
           </div>
           <div class="service-content-one">
@@ -289,13 +283,12 @@
                   </div>
                   <div class="service-txt">
                     <h2>
-                      <a href="#">busisness planning</a>
+                      <a href="#">Internet de Alta Velocidad</a>
                     </h2>
                     <p>
-                      Lorem ipsum dolo dolor in in voluptate velit esse cillum
-                      dolore. epteur sint oat cupidatat
+                      Disfruta de una conexión estable y veloz para todas tus necesidades digitales.
                     </p>
-                    <a href="#" class="service-btn"> learn more </a>
+                    <!-- <a href="#" class="service-btn"> learn more </a> -->
                   </div>
                 </div>
               </div>
@@ -309,13 +302,12 @@
                   </div>
                   <div class="service-txt">
                     <h2>
-                      <a href="#">busisness consultency</a>
+                      <a href="#">Soluciones Empresariales</a>
                     </h2>
                     <p>
-                      Lorem ipsum dolo dolor in in voluptate velit esse cillum
-                      dolore. epteur sint oat cupidatat
+                    Planes personalizados para garantizar la mejor conectividad en tu empresa
                     </p>
-                    <a href="#" class="service-btn"> learn more </a>
+                    <!-- <a href="#" class="service-btn"> learn more </a> -->
                   </div>
                 </div>
               </div>
@@ -329,13 +321,12 @@
                   </div>
                   <div class="service-txt">
                     <h2>
-                      <a href="#">financial services</a>
+                      <a href="#">Planes Flexibles</a>
                     </h2>
                     <p>
-                      Lorem ipsum dolo dolor in in voluptate velit esse cillum
-                      dolore. epteur sint oat cupidatat
+                    Elige el plan que mejor se adapte a tus necesidades y presupuesto.
                     </p>
-                    <a href="#" class="service-btn"> learn more </a>
+                    <!-- <a href="#" class="service-btn"> learn more </a> -->
                   </div>
                 </div>
               </div>
@@ -353,13 +344,12 @@
                   </div>
                   <div class="service-txt">
                     <h2>
-                      <a href="#">risk management</a>
+                      <a href="#">Seguridad y Protección</a>
                     </h2>
                     <p>
-                      Lorem ipsum dolo dolor in in voluptate velit esse cillum
-                      dolore. epteur sint oat cupidatat
+                    Navega con tranquilidad con nuestras medidas avanzadas de seguridad.
                     </p>
-                    <a href="#" class="service-btn"> learn more </a>
+                    <!-- <a href="#" class="service-btn"> learn more </a> -->
                   </div>
                   <!--/.service-txt-->
                 </div>
@@ -377,13 +367,12 @@
                   <!--/.service-img-->
                   <div class="service-txt">
                     <h2>
-                      <a href="#">expert advisers</a>
+                      <a href="#">Asesoría Personalizada</a>
                     </h2>
                     <p>
-                      Lorem ipsum dolo dolor in in voluptate velit esse cillum
-                      dolore. epteur sint oat cupidatat
+                    Te ayudamos a elegir la mejor opción para optimizar tu conectividad
                     </p>
-                    <a href="#" class="service-btn"> learn more </a>
+                    <!-- <a href="#" class="service-btn"> learn more </a> -->
                   </div>
                   <!--/.service-txt-->
                 </div>
@@ -401,13 +390,12 @@
                   <!--/.service-img-->
                   <div class="service-txt">
                     <h2>
-                      <a href="#">24/7 customer support</a>
+                      <a href="#">Soporte Técnico 24/7</a>
                     </h2>
                     <p>
-                      Lorem ipsum dolo dolor in in voluptate velit esse cillum
-                      dolore. epteur sint oat cupidatat
+                     Atención rápida y eficiente para resolver cualquier inconveniente
                     </p>
-                    <a href="#" class="service-btn"> learn more </a>
+                    <!-- <a href="#" class="service-btn"> learn more </a> -->
                   </div>
                   <!--/.service-txt-->
                 </div>
@@ -426,8 +414,7 @@
     <!--/.service-->
     <!--service end-->
 
-    <!--statistics start-->
-    <section class="statistics">
+    <!-- <section class="statistics">
       <div class="container">
         <div class="statistics-counter">
           <div class="col-md-3 col-sm-6">
@@ -438,16 +425,12 @@
                   alt="counter-icon"
                 />
               </div>
-              <!--/.statistics-img-->
               <div class="statistics-content">
                 <div class="counter">2556</div>
                 <h3>days worked</h3>
               </div>
-              <!--/.statistics-content-->
             </div>
-            <!--/.single-ststistics-box-->
           </div>
-          <!--/.col-->
           <div class="col-md-3 col-sm-6">
             <div class="single-ststistics-box">
               <div class="statistics-img">
@@ -456,16 +439,12 @@
                   alt="counter-icon"
                 />
               </div>
-              <!--/.statistics-img-->
               <div class="statistics-content">
                 <div class="counter">326</div>
                 <h3>project finished</h3>
               </div>
-              <!--/.statistics-content-->
             </div>
-            <!--/.single-ststistics-box-->
           </div>
-          <!--/.col-->
           <div class="col-md-3 col-sm-6">
             <div class="single-ststistics-box">
               <div class="statistics-img">
@@ -474,16 +453,12 @@
                   alt="counter-icon"
                 />
               </div>
-              <!--/.statistics-img-->
               <div class="statistics-content">
                 <div class="counter">1526</div>
                 <h3>coffee cup</h3>
               </div>
-              <!--/.statistics-content-->
             </div>
-            <!--/.single-ststistics-box-->
           </div>
-          <!--/.col-->
           <div class="col-md-3 col-sm-6">
             <div class="single-ststistics-box">
               <div class="statistics-img">
@@ -492,33 +467,23 @@
                   alt="counter-icon"
                 />
               </div>
-              <!--/.statistics-img-->
               <div class="statistics-content">
                 <div class="counter">856</div>
                 <h3>client satisfied</h3>
               </div>
-              <!--/.statistics-content-->
             </div>
-            <!--/.single-ststistics-box-->
           </div>
-          <!--/.col-->
         </div>
-        <!--/.statistics-counter-->
       </div>
-      <!--/.container-->
-    </section>
-    <!--/.statistics-->
-    <!--statistics end-->
+    </section> -->
 
-    <!--project start-->
-    <section id="project" class="project">
+    <!-- <section id="project" class="project">
       <div class="container">
         <div class="project-details">
           <div class="project-header text-left">
             <h2>Our Finished Projects</h2>
             <p>Pallamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
-          <!--/.project-header-->
           <div class="project-content">
             <div class="gallery-content">
               <div class="isotope">
@@ -538,11 +503,8 @@
                         </h3>
                         <p>busisness planning</p>
                       </div>
-                      <!-- /.isotope-overlay -->
                     </div>
-                    <!-- /.item -->
                   </div>
-                  <!-- /.col -->
                   <div class="col-md-8 col-sm-12">
                     <div class="row">
                       <div class="col-sm-6 col-xs-12">
@@ -560,11 +522,8 @@
                             </h3>
                             <p>busisness planning</p>
                           </div>
-                          <!-- /.isotope-overlay -->
                         </div>
-                        <!-- /.item -->
                       </div>
-                      <!-- /.col -->
                       <div class="col-sm-6 col-xs-12">
                         <div class="item">
                           <img
@@ -580,13 +539,9 @@
                             </h3>
                             <p>busisness planning</p>
                           </div>
-                          <!-- /.isotope-overlay -->
                         </div>
-                        <!-- /.item -->
                       </div>
-                      <!-- /.col -->
                     </div>
-                    <!-- /.row-->
                     <div class="row">
                       <div class="col-sm-6 col-xs-12">
                         <div class="item">
@@ -603,11 +558,8 @@
                             </h3>
                             <p>busisness planning</p>
                           </div>
-                          <!-- /.isotope-overlay -->
                         </div>
-                        <!-- /.item -->
                       </div>
-                      <!-- /.col -->
                       <div class="col-sm-6 col-xs-12">
                         <div class="item">
                           <img
@@ -623,44 +575,29 @@
                             </h3>
                             <p>busisness planning</p>
                           </div>
-                          <!-- /.isotope-overlay -->
                         </div>
-                        <!--/.item -->
                       </div>
-                      <!-- /.col -->
                     </div>
-                    <!-- /.row-->
                   </div>
-                  <!-- /.col -->
                 </div>
-                <!-- /.row -->
               </div>
-              <!--/.isotope-->
             </div>
-            <!--/.gallery-content-->
           </div>
-          <!--/.project-content-->
         </div>
-        <!--/.project-details-->
         <div class="project-btn text-center">
           <a href="project.html" class="project-view">view all </a>
         </div>
-        <!--/.project-btn-->
       </div>
-      <!--/.container-->
-    </section>
-    <!--/.project-->
-    <!--project end-->
+    </section> -->
 
     <!--team start -->
-    <section class="team">
+    <!-- <section class="team">
       <div class="container">
         <div class="team-details">
           <div class="project-header team-header text-left">
             <h2>Our expert team</h2>
             <p>Pallamco laboris nisi ut aliquip ex ea commodo consequat.</p>
           </div>
-          <!--/.project-header-->
           <div class="team-card">
             <div class="container">
               <div class="row">
@@ -672,11 +609,8 @@
                         <p class="team-meta">Founder & CEO</p>
                         <a href="team.html" class="learn-btn"> learn more </a>
                       </div>
-                      <!--/.team-box-inner-->
                     </div>
-                    <!--/.single-team-box-->
                   </div>
-                  <!--.col-->
                   <div class="col-sm-3 col-xs-12">
                     <div class="single-team-box team-box-bg-2">
                       <div class="team-box-inner">
@@ -684,11 +618,8 @@
                         <p class="team-meta">Director, Management & Research</p>
                         <a href="team.html" class="learn-btn"> learn more </a>
                       </div>
-                      <!--/.team-box-inner-->
                     </div>
-                    <!--/.single-team-box-->
                   </div>
-                  <!--.col-->
                   <div class="col-sm-3 col-xs-12">
                     <div class="single-team-box team-box-bg-3">
                       <div class="team-box-inner">
@@ -696,11 +627,8 @@
                         <p class="team-meta">Director, Finance Solution</p>
                         <a href="team.html" class="learn-btn"> learn more </a>
                       </div>
-                      <!--/.team-box-inner-->
                     </div>
-                    <!--/.single-team-box-->
                   </div>
-                  <!--.col-->
                   <div class="col-sm-3 col-xs-12">
                     <div class="single-team-box team-box-bg-4">
                       <div class="team-box-inner">
@@ -708,29 +636,18 @@
                         <p class="team-meta">Head, Legal Advising</p>
                         <a href="team.html" class="learn-btn"> learn more </a>
                       </div>
-                      <!--/.team-box-inner-->
                     </div>
-                    <!--/.single-team-box-->
                   </div>
-                  <!--.col-->
                 </div>
-                <!--/.team-carousel-->
               </div>
-              <!--/.row-->
             </div>
-            <!--/.container-->
           </div>
-          <!--/.team-card-->
         </div>
-        <!--/.team-details-->
       </div>
-      <!--/.container-->
-    </section>
-    <!--/.team-->
-    <!--team end-->
+    </section> -->
 
     <!--pricing start -->
-    <section id="pricing" class="pricing">
+    <!-- <section id="pricing" class="pricing">
       <div class="container">
         <div class="pricing-details">
           <div class="section-header text-center">
@@ -741,7 +658,6 @@
               dolore eu fugiat nulla pariatur.
             </p>
           </div>
-          <!--/.section-header-->
           <div class="pricing-content">
             <div class="row">
               <div class="col-md-3 col-sm-6">
@@ -751,7 +667,6 @@
                     <h3 class="packeg_p"><span>$</span>99</h3>
                     <p>monthly</p>
                   </div>
-                  <!--/.pricing-header-->
                   <ul class="plan-lists">
                     <li>01 user</li>
                     <li>01 project</li>
@@ -759,18 +674,14 @@
                     <li>complete statistics</li>
                     <li>E-Mail support</li>
                   </ul>
-                  <!--/ul-->
 
                   <div class="project-btn pricing-btn text-center">
                     <a href="project.html" class="project-view">
                       Sign Up Now
                     </a>
                   </div>
-                  <!--/.project-btn-->
                 </div>
-                <!--/.pricing-box-->
               </div>
-              <!--/.col-->
 
               <div class="col-md-3 col-sm-6">
                 <div class="pricing-box">
@@ -779,7 +690,6 @@
                     <h3 class="packeg_p"><span>$</span>299</h3>
                     <p>monthly</p>
                   </div>
-                  <!--/.pricing-header-->
                   <ul class="plan-lists">
                     <li>05 user</li>
                     <li>05 project</li>
@@ -787,18 +697,14 @@
                     <li>complete statistics</li>
                     <li>full support</li>
                   </ul>
-                  <!--/ul-->
 
                   <div class="project-btn pricing-btn text-center">
                     <a href="project.html" class="project-view">
                       Sign Up Now
                     </a>
                   </div>
-                  <!--/.project-btn-->
                 </div>
-                <!--/.pricing-box-->
               </div>
-              <!--/.col-->
 
               <div class="col-md-3 col-sm-6">
                 <div class="pricing-box">
@@ -807,7 +713,6 @@
                     <h3 class="packeg_p"><span>$</span>499</h3>
                     <p>monthly</p>
                   </div>
-                  <!--/.pricing-header-->
                   <ul class="plan-lists">
                     <li>10 user</li>
                     <li>10 project</li>
@@ -815,18 +720,14 @@
                     <li>complete statistics</li>
                     <li>full support</li>
                   </ul>
-                  <!--/ul-->
 
                   <div class="project-btn pricing-btn text-center">
                     <a href="project.html" class="project-view">
                       Sign Up Now
                     </a>
                   </div>
-                  <!--/.project-btn-->
                 </div>
-                <!--/.pricing-box-->
               </div>
-              <!--/.col-->
 
               <div class="col-md-3 col-sm-6">
                 <div class="pricing-box">
@@ -835,7 +736,6 @@
                     <h3 class="packeg_p"><span>$</span>1099</h3>
                     <p>monthly</p>
                   </div>
-                  <!--/.pricing-header-->
                   <ul class="plan-lists">
                     <li>unlimited user</li>
                     <li>unlimited project</li>
@@ -843,46 +743,33 @@
                     <li>complete statistics</li>
                     <li>full support</li>
                   </ul>
-                  <!--/ul-->
 
                   <div class="project-btn pricing-btn text-center">
                     <a href="project.html" class="project-view">
                       Sign Up Now
                     </a>
                   </div>
-                  <!--/.project-btn-->
                 </div>
-                <!--/.pricing-box-->
               </div>
-              <!--/.col-->
             </div>
-            <!--/.row-->
           </div>
-          <!--/.pricing-content-->
         </div>
-        <!--/.pricing-details-->
       </div>
-      <!--/.container-->
-    </section>
-    <!--/.pricing-->
-    <!--pricing end-->
+    </section> -->
 
-    <!-- testemonial Start -->
-    <section class="testemonial">
+    <!-- <section class="testemonial">
       <div class="container">
         <div class="section-header text-center">
           <h2>
             <span> what our client say about us </span>
           </h2>
         </div>
-        <!--/.section-header-->
         <div class="owl-carousel owl-theme" id="testemonial-carousel">
           <div class="home1-testm item">
             <div class="home1-testm-single text-center">
               <div class="home1-testm-img">
                 <img src="assets/images/client/testimonial1.jpg" alt="img" />
               </div>
-              <!--/.home1-testm-img-->
               <div class="home1-testm-txt">
                 <span class="icon section-icon">
                   <i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -897,17 +784,13 @@
                 </h3>
                 <h4>CEO, Kingston</h4>
               </div>
-              <!--/.home1-testm-txt-->
             </div>
-            <!--/.home1-testm-single-->
           </div>
-          <!--/.item-->
           <div class="home1-testm item">
             <div class="home1-testm-single text-center">
               <div class="home1-testm-img">
                 <img src="assets/images/client/testimonial2.jpg" alt="img" />
               </div>
-              <!--/.home1-testm-img-->
               <div class="home1-testm-txt">
                 <span class="icon section-icon">
                   <i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -922,17 +805,13 @@
                 </h3>
                 <h4>CEO, Kingston</h4>
               </div>
-              <!--/.home1-testm-txt-->
             </div>
-            <!--/.home1-testm-single-->
           </div>
-          <!--/.item-->
           <div class="home1-testm item">
             <div class="home1-testm-single text-center">
               <div class="home1-testm-img">
                 <img src="assets/images/client/testimonial1.jpg" alt="img" />
               </div>
-              <!--/.home1-testm-img-->
               <div class="home1-testm-txt">
                 <span class="icon section-icon">
                   <i class="fa fa-quote-left" aria-hidden="true"></i>
@@ -947,21 +826,14 @@
                 </h3>
                 <h4>CEO, Kingston</h4>
               </div>
-              <!--/.home1-testm-txt-->
             </div>
-            <!--/.home1-testm-single-->
           </div>
-          <!--/.item-->
         </div>
-        <!--/.testemonial-carousel-->
       </div>
-      <!--/.container-->
-    </section>
-    <!--/.testimonial-->
-    <!-- testemonial End -->
+    </section> -->
 
     <!--clients start-->
-    <section class="clients">
+    <!-- <section class="clients">
       <div class="container">
         <div class="clients-area">
           <div class="owl-carousel owl-theme" id="client">
@@ -970,43 +842,33 @@
                 <img src="assets/images/client/client1.png" alt="brand-image" />
               </a>
             </div>
-            <!--/.item-->
             <div class="item">
               <a href="#">
                 <img src="assets/images/client/client2.png" alt="brand-image" />
               </a>
             </div>
-            <!--/.item-->
             <div class="item">
               <a href="#">
                 <img src="assets/images/client/client3.png" alt="brand-image" />
               </a>
             </div>
-            <!--/.item-->
             <div class="item">
               <a href="#">
                 <img src="assets/images/client/client4.png" alt="brand-image" />
               </a>
             </div>
-            <!--/.item-->
             <div class="item">
               <a href="#">
                 <img src="assets/images/client/client5.png" alt="brand-image" />
               </a>
             </div>
-            <!--/.item-->
           </div>
-          <!--/.owl-carousel-->
         </div>
-        <!--/.clients-area-->
       </div>
-      <!--/.container-->
-    </section>
-    <!--/.clients-->
-    <!--clients end-->
+    </section> -->
 
     <!--nwes start -->
-    <section class="news">
+    <!-- <section class="news">
       <div class="container">
         <div class="news-details">
           <div class="section-header text-center">
@@ -1017,7 +879,6 @@
               dolore eu fugiat nulla pariatur.
             </p>
           </div>
-          <!--/.section-header-->
           <div class="news-card news-card-pb-25">
             <div class="row">
               <div class="col-md-4 col-sm-6">
@@ -1030,7 +891,6 @@
                       </a>
                     </div>
                   </div>
-                  <!--/.team-box-bg-->
                   <div class="news-box-inner">
                     <h3>
                       <a href="blog_single.html">
@@ -1042,15 +902,10 @@
                       Posted By: <span>Mick Steven</span> // On
                       <span>12th June, 2017</span>
                     </p>
-                    <!-- <a href="#" class="learn-btn">
-												learn more
-											</a> -->
+                  
                   </div>
-                  <!--/.news-box-inner-->
                 </div>
-                <!--/.single-news-box-->
               </div>
-              <!--.col-->
               <div class="col-md-4 col-sm-6">
                 <div class="single-news-box">
                   <div class="news-box-bg">
@@ -1061,7 +916,6 @@
                       </a>
                     </div>
                   </div>
-                  <!--/.team-box-bg-->
                   <div class="news-box-inner">
                     <h3>
                       <a href="blog_single.html">
@@ -1073,15 +927,10 @@
                       Posted By: <span>Mick Steven</span> // On
                       <span>12th June, 2017</span>
                     </p>
-                    <!-- <a href="#" class="learn-btn">
-												learn more
-											</a> -->
+                
                   </div>
-                  <!--/.news-box-inner-->
                 </div>
-                <!--/.single-news-box-->
               </div>
-              <!--.col-->
               <div class="col-md-4 col-sm-6">
                 <div class="single-news-box">
                   <div class="news-box-bg">
@@ -1092,7 +941,6 @@
                       </a>
                     </div>
                   </div>
-                  <!--/.team-box-bg-->
                   <div class="news-box-inner">
                     <h3>
                       <a href="blog_single.html">
@@ -1104,41 +952,26 @@
                       Posted By: <span>Mick Steven</span> // On
                       <span>12th June, 2017</span>
                     </p>
-                    <!-- <a href="#" class="learn-btn">
-												learn more
-											</a> -->
                   </div>
-                  <!--/.news-box-inner-->
                 </div>
-                <!--/.single-news-box-->
               </div>
-              <!--.col-->
             </div>
-            <!--/.row-->
             <div class="project-btn text-center">
               <a href="blog.html" class="project-view">read more </a>
             </div>
-            <!--/.project-btn-->
           </div>
-          <!--/.news-card-->
         </div>
-        <!--/news-details-->
       </div>
-      <!--/.container-->
-    </section>
-    <!--/news-->
-    <!--news end-->
+    </section> -->
 
     <!--contact start-->
     <section class="contact">
       <div class="container">
         <div class="contact-details">
           <div class="section-header contact-head text-center">
-            <h2>contact us</h2>
+            <h2>Contáctanos</h2>
             <p>
-              Pallamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-              aute irure dolor in reprehenderit in voluptate velit esse cillum
-              dolore eu fugiat nulla pariatur.
+              Estamos aquí para brindarte el mejor servicio de internet. Contáctanos para asesoría, soporte o para conocer más sobre nuestros planes y soluciones.
             </p>
           </div>
           <!--/.section-header-->
@@ -1149,18 +982,19 @@
                   <div class="contact-right">
                     <div class="contact-adress">
                       <div class="contact-office-address">
-                        <h3>contact info</h3>
-                        <p>125, Park street avenue, Brocklyn, Newyork.</p>
+                        <h3>Información de contacto</h3>
+                        <br>
+                        <!-- <p>125, Park street avenue, Brocklyn, Newyork.</p> -->
                         <div class="contact-online-address">
                           <div class="single-online-address">
                             <i class="fa fa-phone"></i>
-                            +11253678958
+                            +51 954 017 375
                           </div>
                           <!--/.single-online-address-->
 
                           <div class="single-online-address">
                             <i class="fa fa-envelope-o"></i>
-                            <span>info@mail.com</span>
+                            <span>wimax.pe@gmail.com</span>
                           </div>
                           <!--/.single-online-address-->
                         </div>
@@ -1168,7 +1002,7 @@
                       </div>
                       <!--/.contact-office-address-->
                       <div class="contact-office-address">
-                        <h3>social partner</h3>
+                        <h3>Redes sociales</h3>
                         <div class="contact-icon">
                           <ul>
                             <li>
@@ -1221,7 +1055,7 @@
               <div class="col-sm-5">
                 <div class="single-contact-box">
                   <div class="contact-form">
-                    <h3>Leave us a Massage Here</h3>
+                    <h3>Déjanos un masaje aquí</h3>
                     <form>
                       <div class="row">
                         <div class="col-sm-6 col-xs-12">
@@ -1230,7 +1064,7 @@
                               type="text"
                               class="form-control"
                               id="firstname"
-                              placeholder="First Name"
+                              placeholder="Nombres"
                               name="firstname"
                             />
                           </div>
@@ -1243,7 +1077,7 @@
                               type="text"
                               class="form-control"
                               id="lastname"
-                              placeholder="Last Name"
+                              placeholder="Apellidos"
                               name="laststname"
                             />
                           </div>
@@ -1272,7 +1106,7 @@
                               type="text"
                               class="form-control"
                               id="phone"
-                              placeholder="Phone"
+                              placeholder="Teléfono"
                               name="phone"
                             />
                           </div>
@@ -1288,7 +1122,7 @@
                               class="form-control"
                               rows="7"
                               id="comment"
-                              placeholder="Message"
+                              placeholder="Mensaje"
                             ></textarea>
                           </div>
                           <!--/.form-group-->
@@ -1300,7 +1134,7 @@
                         <div class="col-sm-12">
                           <div class="single-contact-btn pull-right">
                             <button class="contact-btn" type="button">
-                              send message
+                              ENVIAR CONSULTA
                             </button>
                           </div>
                           <!--/.single-single-contact-btn-->
@@ -1328,7 +1162,7 @@
     <!--/.contact-->
 
     <!-- new-project start -->
-    <section id="new-project" class="new-project">
+    <!-- <section id="new-project" class="new-project">
       <div class="container">
         <div class="new-project-details">
           <div class="row">
@@ -1336,23 +1170,16 @@
               <div class="single-new-project">
                 <h3>Want to start a new project with us? Let’s Start!</h3>
               </div>
-              <!-- /.single-new-project-->
             </div>
-            <!-- /.col-->
             <div class="col-md-2 col-sm-4">
               <div class="single-new-project">
                 <a href="#" class="slide-btn"> start now </a>
               </div>
-              <!-- /.single-new-project-->
             </div>
-            <!-- /.col-->
           </div>
-          <!-- /.row-->
         </div>
-        <!-- /.new-project-details-->
       </div>
-      <!-- /.container-->
-    </section>
+    </section> -->
     <!-- /.new-project-->
     <!-- new-project end -->
     <?php include_once 'components/footer.php'; ?>
