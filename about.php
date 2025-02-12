@@ -67,15 +67,7 @@
               line-height: 1.8;
               color: #555;
           }
-        .mt-3{
-          margin-top: 30px;
-        }
-        .mt-4{
-          margin-top: 40px;
-        }
-        .mt-5{
-          margin-top: 50px;
-        }
+       
     </style>
   <body>
     <?php include_once 'components/header.php'; ?>
