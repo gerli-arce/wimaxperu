@@ -659,19 +659,19 @@
               </p>
               <div class="interconnection-benefits" data-aos="fade-up">
                 <div class="benefit-item">
-                  <i class="fas fa-network-wired fa-3x text-primary"></i>
+                  <i class="fas fa-network-wired fa-3x text-primary mb-2"></i>
                   <h5>Red Unificada</h5>
                 </div>
                 <div class="benefit-item">
-                  <i class="fas fa-lock fa-3x text-primary"></i>
+                  <i class="fas fa-lock fa-3x text-primary mb-2"></i>
                   <h5>Seguridad Mejorada</h5>
                 </div>
                 <div class="benefit-item">
-                  <i class="fas fa-chart-line fa-3x text-primary"></i>
+                  <i class="fas fa-chart-line fa-3x text-primary mb-2"></i>
                   <h5>Mayor Eficiencia</h5>
                 </div>
                 <div class="benefit-item">
-                  <i class="fas fa-sync fa-3x text-primary"></i>
+                  <i class="fas fa-sync fa-3x text-primary mb-2"></i>
                   <h5>Sincronización en Tiempo Real</h5>
                 </div>
               </div>
