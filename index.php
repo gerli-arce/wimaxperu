@@ -199,6 +199,218 @@
       gap: 1rem;
     }
 
+    .contact-section {
+      padding: 60px 0;
+      background: #f8f9fa;
+    }
+
+    .container {
+      max-width: 1400px; /* Aumentado de 1200px */
+      margin: 0 auto;
+      padding: 0 30px;
+    }
+
+    .contact-wrapper {
+      display: grid;
+      grid-template-columns: 450px 1fr; /* Aumentado de 350px */
+      gap: 40px; /* Aumentado de 30px */
+      margin: 0 auto;
+      max-width: 1300px; /* Aumentado de 1000px */
+    }
+
+    /* Panel de Información */
+    .info-panel {
+      background: #2196f3;
+      color: white;
+      padding: 50px; /* Aumentado de 40px */
+      border-radius: 20px; /* Aumentado de 15px */
+    }
+
+    .info-panel h3 {
+      margin: 0 0 40px; /* Aumentado de 30px */
+      font-size: 2rem; /* Aumentado de 1.5rem */
+    }
+
+    .contact-info {
+      margin-bottom: 50px; /* Aumentado de 40px */
+    }
+
+    .info-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 35px; /* Aumentado de 25px */
+    }
+
+    .icon-circle {
+      width: 50px; /* Aumentado de 40px */
+      height: 50px; /* Aumentado de 40px */
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 20px; /* Aumentado de 15px */
+      font-size: 1.2rem; /* Aumentado */
+    }
+
+    .info-content {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .info-label {
+      font-size: 1.1rem; /* Aumentado de 0.9rem */
+      opacity: 0.8;
+      margin-bottom: 5px;
+    }
+
+    .info-text {
+      font-size: 1.2rem; /* Aumentado de 1rem */
+    }
+
+    .social-section h4 {
+      margin: 0 0 20px;
+      font-size: 1.4rem; /* Aumentado de 1.2rem */
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 20px; /* Aumentado de 15px */
+    }
+
+    .social-icon {
+      width: 45px; /* Aumentado de 35px */
+      height: 45px; /* Aumentado de 35px */
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1.2rem; /* Aumentado */
+      transition: all 0.3s ease;
+    }
+
+    .social-icon:hover {
+      background: rgba(255, 255, 255, 0.2);
+      transform: translateY(-3px);
+    }
+
+    /* Panel del Formulario */
+    .form-panel {
+      background: white;
+      padding: 50px; /* Aumentado de 40px */
+      border-radius: 20px; /* Aumentado de 15px */
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-panel h3 {
+      color: #2196f3;
+      margin: 0 0 40px; /* Aumentado de 30px */
+      font-size: 2rem; /* Aumentado de 1.5rem */
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 25px; /* Aumentado de 20px */
+      margin-bottom: 25px; /* Aumentado de 20px */
+    }
+
+    .input-group {
+      position: relative;
+      margin-bottom: 25px; /* Aumentado de 20px */
+    }
+
+    .input-group i {
+      position: absolute;
+      left: 20px; /* Aumentado de 15px */
+      top: 50%;
+      transform: translateY(-50%);
+      color: #2196f3;
+      font-size: 1.2rem; /* Aumentado */
+    }
+
+    .input-group input,
+    .input-group textarea {
+      width: 100%;
+      padding: 18px 20px 18px 55px; /* Aumentado */
+      border: 2px solid #e0e0e0; /* Aumentado de 1px */
+      border-radius: 12px; /* Aumentado de 8px */
+      font-size: 1.1rem; /* Aumentado de 1rem */
+      transition: all 0.3s ease;
+    }
+
+    .input-group textarea {
+      padding-top: 18px; /* Aumentado */
+      min-height: 180px; /* Aumentado de 120px */
+    }
+
+    .input-group textarea + i {
+      top: 20px; /* Aumentado de 15px */
+      transform: none;
+    }
+
+    .input-group input:focus,
+    .input-group textarea:focus {
+      border-color: #2196f3;
+      outline: none;
+      box-shadow: 0 0 0 4px rgba(33, 150, 243, 0.1);
+    }
+
+    #send {
+      background: #2196f3;
+      color: white;
+      border: none;
+      border-radius: 12px; /* Aumentado de 8px */
+      padding: 18px 30px; /* Aumentado */
+      font-size: 1.2rem; /* Aumentado de 1rem */
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px; /* Aumentado de 10px */
+      width: 100%;
+      transition: all 0.3s ease;
+    }
+
+    #send:hover {
+      background: #1976d2;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(33, 150, 243, 0.25);
+    }
+
+    @media (max-width: 992px) {
+      .contact-wrapper {
+        grid-template-columns: 1fr;
+      }
+
+      .container {
+        padding: 0 20px;
+      }
+
+      .info-panel,
+      .form-panel {
+        padding: 40px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .form-row {
+        grid-template-columns: 1fr;
+      }
+
+      .info-panel,
+      .form-panel {
+        padding: 30px;
+      }
+
+      .info-panel h3,
+      .form-panel h3 {
+        font-size: 1.8rem;
+      }
+    }
+
     @media (max-width: 768px) {
       .section-title {
         font-size: 2rem;
@@ -597,427 +809,111 @@
       </div>
     </section>
 
-    <!-- <section class="we-do">
+    <div class="contact-section">
       <div class="container">
-        <div class="we-do-details">
-          <div class="section-header text-center">
-            <h2>¿Qué ofrecemos?</h2>
-            <p>
-              Brindamos soluciones de internet de alta velocidad y
-              confiabilidad. Conéctate sin interrupciones y disfruta de una
-              experiencia en línea sin límites para tu hogar o negocio.
-            </p>
-          </div>
-          <div class="we-do-carousel">
-            <div class="row">
-              <div class="col-sm-4 col-xs-12">
-                <div class="single-we-do-box text-center">
-                  <div class="we-do-description">
-                    <div class="we-do-info">
-                      <div class="we-do-img">
-                        <img
-                          src="assets/images/home/internet1.jpg"
-                          alt="image of high-speed internet"
-                        />
-                      </div>
-                      <div class="we-do-topics">
-                        <h2>
-                          <a href="#"> Internet de Alta Velocidad </a>
-                        </h2>
-                      </div>
-                    </div>
-                    <div class="we-do-comment">
-                      <p>
-                        Conexión rápida y estable para que disfrutes de una
-                        navegación sin interrupciones en todo momento.
-                      </p>
-                    </div>
-                  </div>
+        <div class="contact-wrapper">
+          <div class="info-panel" data-aos="fade-right">
+            <h3>Información De Contacto</h3>
+
+            <div class="contact-info">
+              <div class="info-item">
+                <div class="icon-circle">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="info-content">
+                  <span class="info-label">Ubicación</span>
+                  <span class="info-text"
+                    >Jr. Francisco Irazola N° 10 - Satipo, Chanchamayo,
+                    Junín</span
+                  >
                 </div>
               </div>
 
-              <div class="col-sm-4 col-xs-12">
-                <div class="single-we-do-box text-center">
-                  <div class="we-do-description">
-                    <div class="we-do-info">
-                      <div class="we-do-img">
-                        <img
-                          src="assets/images/home/solutionsbusiness.jpg"
-                          alt="image of business solutions"
-                        />
-                      </div>
-                      <div class="we-do-topics">
-                        <h2>
-                          <a href="#"> Soluciones para Empresas </a>
-                        </h2>
-                      </div>
-                    </div>
-                    <div class="we-do-comment">
-                      <p>
-                        Servicios personalizados para que tu empresa tenga la
-                        mejor conectividad y productividad.
-                      </p>
-                    </div>
-                  </div>
+              <div class="info-item">
+                <div class="icon-circle">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="info-content">
+                  <span class="info-label">Teléfono</span>
+                  <span class="info-text">+51 960 881 023</span>
                 </div>
               </div>
 
-              <div class="col-sm-4 col-xs-12">
-                <div class="single-we-do-box text-center">
-                  <div class="we-do-description">
-                    <div class="we-do-info">
-                      <div class="we-do-img">
-                        <img
-                          src="assets/images/home/support.jpg"
-                          alt="image of customer support"
-                        />
-                      </div>
-                      <div class="we-do-topics">
-                        <h2>
-                          <a href="#"> Soporte Técnico 24/7 </a>
-                        </h2>
-                      </div>
-                    </div>
-                    <div class="we-do-comment">
-                      <p>
-                        Atención personalizada en todo momento para garantizar
-                        tu conexión sin interrupciones.
-                      </p>
-                    </div>
-                  </div>
+              <div class="info-item">
+                <div class="icon-circle">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info-content">
+                  <span class="info-label">Email</span>
+                  <span class="info-text">wimax.pe@gmail.com</span>
                 </div>
               </div>
             </div>
+
+            <div class="social-section">
+              <h4>Síguenos</h4>
+              <div class="social-icons">
+                <a href="#" class="social-icon"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" class="social-icon"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" class="social-icon"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+                <a href="#" class="social-icon"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Formulario -->
+          <div class="form-panel" data-aos="fade-left">
+            <h3>Envíanos Un Mensaje</h3>
+            <form id="contactForm">
+              <div class="form-row">
+                <div class="input-group">
+                  <i class="fas fa-user"></i>
+                  <input type="text" placeholder="Nombre" required />
+                </div>
+                <div class="input-group">
+                  <i class="fas fa-user"></i>
+                  <input type="text" placeholder="Apellido" required />
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="input-group">
+                  <i class="fas fa-envelope"></i>
+                  <input type="email" placeholder="Email" required />
+                </div>
+                <div class="input-group">
+                  <i class="fas fa-phone"></i>
+                  <input type="tel" placeholder="Teléfono" />
+                </div>
+              </div>
+
+              <div class="input-group">
+                <!-- <i class="fas fa-comment"></i> -->
+                <textarea
+                  placeholder="Mensaje"
+                  rows="4"
+                  cols="100"
+                  required
+                ></textarea>
+              </div>
+
+              <button id="send" type="submit">
+                Enviar Mensaje
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
           </div>
         </div>
       </div>
-    </section>
-
-    <section class="about-us">
-      <div class="container">
-        <div class="about-us-content">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="single-about-us">
-                <div class="about-us-txt">
-                  <h2>Sobre Nosotros</h2>
-                  <p>
-                    Somos un proveedor líder de servicios de internet,
-                    comprometidos con ofrecer conexiones rápidas, estables y
-                    seguras. Nuestro objetivo es brindarte la mejor experiencia
-                    en conectividad, ya sea para tu hogar o negocio, con un
-                    servicio confiable y un soporte excepcional.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6">
-              <div class="single-about-us">
-                <div class="about-us-img">
-                  <img
-                    src="assets/images/about/about-part.jpg"
-                    alt="about images"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="service">
-      <div class="container">
-        <div class="service-details">
-          <div class="section-header text-center">
-            <h2>Nuestros Servicios</h2>
-            <p>
-              Ofrecemos soluciones de internet de alta velocidad, confiables y
-              seguras para hogares y empresas. Conéctate sin límites con nuestro
-              servicio de calidad.
-            </p>
-          </div>
-          <div class="service-content-one">
-            <div class="row">
-              <div class="col-sm-4 col-xs-12">
-                <div class="service-single text-center">
-                  <div class="service-img">
-                    <img
-                      src="assets/images/service/service1.png"
-                      alt="image of service"
-                    />
-                  </div>
-                  <div class="service-txt">
-                    <h2>
-                      <a href="#">Internet de Alta Velocidad</a>
-                    </h2>
-                    <p>
-                      Disfruta de una conexión estable y veloz para todas tus
-                      necesidades digitales.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-4 col-xs-12">
-                <div class="service-single text-center">
-                  <div class="service-img">
-                    <img
-                      src="assets/images/service/service2.png"
-                      alt="image of service"
-                    />
-                  </div>
-                  <div class="service-txt">
-                    <h2>
-                      <a href="#">Soluciones Empresariales</a>
-                    </h2>
-                    <p>
-                      Planes personalizados para garantizar la mejor
-                      conectividad en tu empresa
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-4 col-xs-12">
-                <div class="service-single text-center">
-                  <div class="service-img">
-                    <img
-                      src="assets/images/service/service3.png"
-                      alt="image of service"
-                    />
-                  </div>
-                  <div class="service-txt">
-                    <h2>
-                      <a href="#">Planes Flexibles</a>
-                    </h2>
-                    <p>
-                      Elige el plan que mejor se adapte a tus necesidades y
-                      presupuesto.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="service-content-two">
-            <div class="row">
-              <div class="col-sm-4 col-xs-12">
-                <div class="service-single text-center">
-                  <div class="service-img">
-                    <img
-                      src="assets/images/service/service4.png"
-                      alt="image of service"
-                    />
-                  </div>
-                  <div class="service-txt">
-                    <h2>
-                      <a href="#">Seguridad y Protección</a>
-                    </h2>
-                    <p>
-                      Navega con tranquilidad con nuestras medidas avanzadas de
-                      seguridad.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-4 col-xs-12">
-                <div class="service-single text-center">
-                  <div class="service-img">
-                    <img
-                      src="assets/images/service/service5.png"
-                      alt="image of service"
-                    />
-                  </div>
-                  <div class="service-txt">
-                    <h2>
-                      <a href="#">Asesoría Personalizada</a>
-                    </h2>
-                    <p>
-                      Te ayudamos a elegir la mejor opción para optimizar tu
-                      conectividad
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-4 col-xs-12">
-                <div class="service-single text-center">
-                  <div class="service-img">
-                    <img
-                      src="assets/images/service/service6.png"
-                      alt="image of service"
-                    />
-                  </div>
-                  <div class="service-txt">
-                    <h2>
-                      <a href="#">Soporte Técnico 24/7</a>
-                    </h2>
-                    <p>
-                      Atención rápida y eficiente para resolver cualquier
-                      inconveniente
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <section class="contact">
-      <div class="container">
-        <div class="contact-details">
-          <div class="section-header contact-head text-center">
-            <h2>Contáctanos</h2>
-            <p>
-              Estamos aquí para brindarte el mejor servicio de internet.
-              Contáctanos para asesoría, soporte o para conocer más sobre
-              nuestros planes y soluciones.
-            </p>
-          </div>
-          <div class="contact-content">
-            <div class="row">
-              <div class="col-sm-offset-1 col-sm-5">
-                <div class="single-contact-box">
-                  <div class="contact-right">
-                    <div class="contact-adress">
-                      <div class="contact-office-address">
-                        <h3>Información de contacto</h3>
-                        <br />
-                        <div class="contact-online-address">
-                          <div class="single-online-address">
-                            <i class="fa fa-phone"></i>
-                            +51 954 017 375
-                          </div>
-
-                          <div class="single-online-address">
-                            <i class="fa fa-envelope-o"></i>
-                            <span>wimax.pe@gmail.com</span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="contact-office-address">
-                        <h3>Redes sociales</h3>
-                        <div class="contact-icon">
-                          <ul>
-                            <li>
-                              <a href="#"
-                                ><i
-                                  class="fa fa-facebook"
-                                  aria-hidden="true"
-                                ></i
-                              ></a>
-                            </li>
-                            <li>
-                              <a href="#"
-                                ><i
-                                  class="fa fa-google-plus"
-                                  aria-hidden="true"
-                                ></i
-                              ></a>
-                            </li>
-                            <li>
-                              <a href="#"
-                                ><i
-                                  class="fa fa-linkedin"
-                                  aria-hidden="true"
-                                ></i
-                              ></a>
-                            </li>
-                            <li>
-                              <a href="#"
-                                ><i class="fa fa-twitter" aria-hidden="true"></i
-                              ></a>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-5">
-                <div class="single-contact-box">
-                  <div class="contact-form">
-                    <h3>Déjanos un masaje aquí</h3>
-                    <form>
-                      <div class="row">
-                        <div class="col-sm-6 col-xs-12">
-                          <div class="form-group">
-                            <input
-                              type="text"
-                              class="form-control"
-                              id="firstname"
-                              placeholder="Nombres"
-                              name="firstname"
-                            />
-                          </div>
-                        </div>
-                        <div class="col-sm-6 col-xs-12">
-                          <div class="form-group">
-                            <input
-                              type="text"
-                              class="form-control"
-                              id="lastname"
-                              placeholder="Apellidos"
-                              name="laststname"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-sm-6 col-xs-12">
-                          <div class="form-group">
-                            <input
-                              type="email"
-                              class="form-control"
-                              id="email"
-                              placeholder="Email"
-                              name="email"
-                            />
-                          </div>
-                        </div>
-                        <div class="col-sm-6 col-xs-12">
-                          <div class="form-group">
-                            <input
-                              type="text"
-                              class="form-control"
-                              id="phone"
-                              placeholder="Teléfono"
-                              name="phone"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-sm-12">
-                          <div class="form-group">
-                            <textarea
-                              class="form-control"
-                              rows="7"
-                              id="comment"
-                              placeholder="Mensaje"
-                            ></textarea>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-sm-12">
-                          <div class="single-contact-btn pull-right">
-                            <button class="contact-btn" type="button">
-                              ENVIAR CONSULTA
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
 
     <?php include_once 'components/footer.php'; ?>
     <script>
